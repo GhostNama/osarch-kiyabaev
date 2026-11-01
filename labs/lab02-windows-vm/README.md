@@ -40,3 +40,4 @@ All required screenshots are stored in the root directory of this repository and
 * **Host System:** Laptop (16 GB RAM)[cite: 7]
 * **Guest OS 1:** Ubuntu (`lab01-ubuntu`)[cite: 4]
 * **Guest OS 2:** Windows 11 (`lab02-win11`)[cite: 4]
+s
