@@ -1,0 +1,38 @@
+role,component,model,price_kzt,source,date
+accountant,cpu,AMD Ryzen 5 7600X OEM,95462,kaspi.kz,2026-11-11
+accountant,cooler,DeepCool AK400 Digital SE (R-AK400-BKADMN-GJD),18400,kaspi.kz,2026-11-11
+accountant,motherboard,Gigabyte B650 Eagle (AM5),78832,kaspi.kz,2026-11-12
+accountant,ram,DDR5 16GB 5600 Apacer FL.16G2C.PKH (1x16),121500,shop.kz,2026-11-12
+accountant,ssd,Kingston NV3 1TB (SNV3S/1000G),81990,kaspi.kz,2026-11-11
+accountant,psu,MSI MAG A650BNL 650W,25590,shop.kz,2026-11-11
+accountant,case,Wintek Tornado Pro PS195-W-M TG white,19905,kaspi.kz,2026-11-11
+accountant,monitor,MSI PRO MP253 24.5in IPS,50990,kaspi.kz,2026-11-11
+accountant,os,Windows 11 Home OEM x64,30400,skysoft.kz,2026-11-11
+sales,cpu,AMD Ryzen 5 7600X OEM,95462,kaspi.kz,2026-11-11
+sales,cooler,DeepCool AK400 Digital SE (R-AK400-BKADMN-GJD),18400,kaspi.kz,2026-11-11
+sales,motherboard,Gigabyte B650 Eagle (AM5),78832,kaspi.kz,2026-11-12
+sales,ram,DDR5 16GB 5600 Apacer FL.16G2C.PKH (1x16),121500,shop.kz,2026-11-12
+sales,ssd,Kingston NV3 1TB (SNV3S/1000G),81990,kaspi.kz,2026-11-11
+sales,psu,MSI MAG A650BNL 650W,25590,shop.kz,2026-11-11
+sales,case,Wintek Tornado Pro PS195-W-M TG white,19905,kaspi.kz,2026-11-11
+sales,monitor,MSI PRO MP253 24.5in IPS,50990,kaspi.kz,2026-11-11
+sales,os,Windows 11 Home OEM x64,30400,skysoft.kz,2026-11-11
+web developer,cpu,AMD Ryzen 7 7700 OEM,102467,kaspi.kz,2026-11-11
+web developer,cooler,DeepCool AK400 Digital SE (R-AK400-BKADMN-GJD),18400,kaspi.kz,2026-11-11
+web developer,motherboard,Gigabyte B650 Eagle (AM5),78832,kaspi.kz,2026-11-12
+web developer,ram,DDR5 32GB 6000 AGI Turbosprint RGB 2x16GB (AGI6CSJ16UD858-DC),309990,shop.kz,2026-11-11
+web developer,ssd,Kingston NV3 1TB (SNV3S/1000G),81990,kaspi.kz,2026-11-11
+web developer,psu,MSI MAG A650BNL 650W,25590,shop.kz,2026-11-11
+web developer,case,Wintek Tornado Pro PS195-W-M TG white,19905,kaspi.kz,2026-11-11
+web developer,monitor,MSI MAG275QF 27in 1440p Rapid IPS,97675,kaspi.kz,2026-11-11
+web developer,os,Windows 11 Pro 64-bit OEM DVD (FQC-10547),46800,kaspi.kz,2026-11-12
+designer,cpu,AMD Ryzen 7 7700 OEM,102467,kaspi.kz,2026-11-11
+designer,cooler,DeepCool AK400 Digital SE (R-AK400-BKADMN-GJD),18400,kaspi.kz,2026-11-11
+designer,motherboard,Gigabyte B650 Eagle (AM5),78832,kaspi.kz,2026-11-12
+designer,ram,DDR5 32GB 6000 AGI Turbosprint RGB 2x16GB (AGI6CSJ16UD858-DC),309990,shop.kz,2026-11-11
+designer,gpu,Palit GeForce RTX 5050 Dual 8GB (NE65050019P1-GB2070D),226140,greenprice.kz,2026-11-11
+designer,ssd,Kingston NV3 1TB (SNV3S/1000G),81990,kaspi.kz,2026-11-11
+designer,psu,MSI MAG A650BNL 650W,25590,shop.kz,2026-11-11
+designer,case,Wintek Tornado Pro PS195-W-M TG white,19905,kaspi.kz,2026-11-11
+designer,monitor,MSI MAG275QF 27in 1440p Rapid IPS,97675,kaspi.kz,2026-11-11
+designer,os,Windows 11 Home OEM x64,30400,skysoft.kz,2026-11-11
