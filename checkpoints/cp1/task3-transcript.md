@@ -21,3 +21,15 @@ sudo systemctl daemon-reload
 sudo systemctl reset-failed nightly-report.service
 sudo systemctl start nightly-report.service
 sudo systemctl enable --now nightly-report.timer
+```
+
+## Verification
+1. Verify line endings are converted to LF (no `^M`):
+   - Command: `cat -A /usr/local/bin/nightly-report.sh`
+   - Expected output: Lines end with `$` only (no `^M$`), with `#!/bin/bash$` on line 1.
+2. Verify the service runs and writes `/var/log/nightly-report.log`:
+   - Command: `systemctl status nightly-report.service && tail -n 10 /var/log/nightly-report.log`
+   - Expected output: `nightly-report.service` succeeds (`status=0/SUCCESS`) and `/var/log/nightly-report.log` contains new output (`date`, `df -h /`, `free -h`).
+3. Verify persistence across a reboot:
+   - Command: `systemctl is-enabled nightly-report.timer` (expected: `enabled`), then run `sudo reboot` and after reboot check `systemctl status nightly-report.timer` and `tail -n 10 /var/log/nightly-report.log` after 2 minutes.
+   - Expected output: `nightly-report.timer` is active and triggers every 2 minutes after reboot, appending new entries to `/var/log/nightly-report.log`.
