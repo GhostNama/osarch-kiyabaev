@@ -1,0 +1,8 @@
+Sat Nov 21 02:30:39 PM UTC 2026
+    PID    PPID USER        VSZ   RSS COMMAND
+   1188       1 root     114036 10948 vmtoolsd
+fd count:
+9
+systemd(1)---vmtoolsd(1188)-+-{vmtoolsd}(1313)
+                            |-{vmtoolsd}(1337)
+                            `-{vmtoolsd}(1338)
