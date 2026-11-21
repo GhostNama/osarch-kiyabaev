@@ -1,0 +1,37 @@
+PS C:\Windows\System32> Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, VirtualizationFirmwareEnabled
+
+Name                                 NumberOfCores NumberOfLogicalProcessors VirtualizationFirmwareEnabled
+----                                 ------------- ------------------------- -----------------------------
+13th Gen Intel(R) Core(TM) i7-13620H            10                        16                         False
+
+
+PS C:\Windows\System32> Get-CimInstance Win32_OperatingSystem | Select-Object Caption, Version, BuildNumber, TotalVisibleMemorySize, FreePhysicalMemory
+
+
+Caption                : Майкрософт Windows 11 Домашняя
+Version                : 10.0.26300
+BuildNumber            : 26300
+TotalVisibleMemorySize : 16473976
+FreePhysicalMemory     : 7296404
+
+
+
+PS C:\Windows\System32> Get-PhysicalDisk | Select-Object DeviceId, MediaType, BusType, Size
+
+DeviceId MediaType BusType         Size
+-------- --------- -------         ----
+0        SSD       NVMe    512110190592
+
+
+PS C:\Windows\System32> Get-Volume -DriveLetter C | Select-Object DriveLetter, FileSystemLabel, Size, SizeRemaining
+
+DriveLetter FileSystemLabel         Size SizeRemaining
+----------- ---------------         ---- -------------
+          C                 511033995264  211766734848
+
+
+PS C:\Windows\System32> Get-Disk | Select-Object Number, PartitionStyle, ProvisioningType
+
+Number PartitionStyle ProvisioningType
+------ -------------- ----------------
+     0 GPT            Fixed
