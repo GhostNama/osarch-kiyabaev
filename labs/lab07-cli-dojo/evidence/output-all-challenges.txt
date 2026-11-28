@@ -1,0 +1,125 @@
+===== #01 ===== 
+C:\lab07
+===== #02 ===== 
+desktop-746umdr\anuaar
+DESKTOP-746UMDR
+desktop-746umdr\anuaar
+===== #03 ===== 
+ Volume in drive C has no label.
+ Volume Serial Number is 7E43-90A3
+
+ Directory of C:\dojo
+
+11/28/2026  10:45 PM    <DIR>          .
+11/28/2026  10:45 PM    <DIR>          backup
+11/28/2026  10:45 PM    <DIR>          logs
+11/28/2026  10:32 PM                51 scores.txt
+               1 File(s)             51 bytes
+
+ Directory of C:\dojo\logs
+
+11/28/2026  10:45 PM    <DIR>          .
+11/28/2026  10:45 PM    <DIR>          ..
+11/28/2026  10:34 PM             1,071 app.log
+11/28/2026  10:45 PM    <DIR>          old
+               1 File(s)          1,071 bytes
+               3 Dir(s)  38,503,088,128 bytes free
+===== #04 ===== 
+dojo started
+22:48:43.99
+===== #05 ===== 
+C:\Windows\System32\PING.EXE
+===== #06 ===== 
+   IPv4 Address. . . . . . . . . . . : 192.168.21.130(Preferred) 
+   Default Gateway . . . . . . . . . : 192.168.21.2
+   DNS Servers . . . . . . . . . . . : 192.168.21.2
+===== #07 ===== 
+
+---------- C:\DOJO\PROCS.TXT: 150
+===== #08 ===== 
+Notepad.exe                   2084 Console                    1     18,448 K
+Notepad.exe                   3220 Console                    1    101,304 K
+SUCCESS: Sent termination signal to the process with PID 3220.
+===== #09 ===== 
+ERROR disk quota exceeded for user1 
+ERROR disk quota exceeded for user2 
+ERROR disk quota exceeded for user3 
+ERROR disk quota exceeded for user4 
+ERROR disk quota exceeded for user5 
+ERROR disk quota exceeded for user6 
+ERROR disk quota exceeded for user7 
+===== #10 ===== 
+11
+===== #11 ===== 
+ Volume in drive C has no label.
+ Volume Serial Number is 7E43-90A3
+
+ Directory of C:\dojo\logs
+
+11/28/2026  10:34 PM             1,071 app.log
+               1 File(s)          1,071 bytes
+
+ Directory of C:\dojo\backup
+
+11/28/2026  10:34 PM             1,071 app.log
+               1 File(s)          1,071 bytes
+               0 Dir(s)  36,878,696,448 bytes free
+===== #12 ===== 
+File Not Found
+File Not Found
+===== #13 ===== 
+gateway OK 
+===== #14 ===== 
+1:INFO user1 login ok 
+10:INFO user10 login ok 
+11:INFO user11 login ok 
+12:INFO user12 login ok 
+13:INFO user13 login ok 
+14:INFO user14 login ok 
+15:INFO user15 login ok 
+16:INFO user16 login ok 
+17:INFO user17 login ok 
+18:INFO user18 login ok 
+19:INFO user19 login ok 
+31:ERROR disk quota exceeded for user1 
+38:WARN slow response for user1 
+===== #15 ===== 
+95 aidos
+88 dana
+79 timur
+72 zarina
+61 bekzat
+===== #16 ===== 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+dwm.exe                        820 Console                    1    121,096 K
+Memory Compression            1956 Services                   0    127,916 K
+svchost.exe                   2736 Services                   0     54,712 K
+MsMpEng.exe                   3308 Services                   0    324,492 K
+explorer.exe                   948 Console                    1    267,608 K
+SearchHost.exe                6296 Console                    1    142,612 K
+StartMenuExperienceHost.e     6312 Console                    1    144,184 K
+RuntimeBroker.exe             6428 Console                    1     52,340 K
+msedgewebview2.exe            6800 Console                    1    133,552 K
+msedgewebview2.exe            7364 Console                    1    105,164 K
+svchost.exe                   6320 Services                   0     52,544 K
+OneDrive.exe                 10076 Console                    1     89,016 K
+WindowsTerminal.exe           8972 Console                    1     99,184 K
+ShellExperienceHost.exe       3808 Console                    1    108,308 K
+Widgets.exe                   9116 Console                    1     68,808 K
+SnippingTool.exe              8092 Console                    1     93,588 K
+===== #17 ===== 
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       548
+  TCP    [::]:135               [::]:0                 LISTENING       548
+
+Image Name                     PID Services                                    
+========================= ======== ============================================
+svchost.exe                    548 RpcEptMapper, RpcSs                         
+===== #19 ===== 
+C:\dojo\errors.txt 16 
+C:\dojo\notes.txt 27 
+C:\dojo\procs.txt 11624 
+C:\dojo\scores.txt 51 
+C:\dojo\backup\app.log 1071 
+C:\dojo\logs\app.log 1071 
